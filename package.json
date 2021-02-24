@@ -1,0 +1,18 @@
+{
+  "name": "piconf",
+  "version": "1.0.0",
+  "description": "Backup of Raspberry Pi Configurations",
+  "main": "index.js",
+  "repository": "http://github.com/autr/piconf",
+  "author": "G.Sinnott",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "diff": "^5.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "scripts": {
+    "backup": "sudo '$(which node)' backup.js",
+    "restore": "sudo '$(which node)' restore.js"
+  }
+}
