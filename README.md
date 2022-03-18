@@ -1,3 +1,22 @@
+# Raspberry Pi Configuration
+
+Backup of Raspberry Pi Buster config files and environment.
+
+# Usage
+
+* `config.js` is a definition of what files and folder to backup.
+* `backup.js` will copy these files into the root of the repository.
+* `restore.js` will copy backed up files back into the filesystem.
+
+*Use with care!*
+
+```
+
+
+```
+
+
+# Details
 
 ```
 Linux dev 5.10.11-v7l+ #1399 SMP Thu Jan 28 12:09:48 GMT 2021 armv7l GNU/Linux
