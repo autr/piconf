@@ -10,12 +10,6 @@ Backup of Raspberry Pi Buster config files and environment.
 
 *Use with care!*
 
-```
-
-
-```
-
-
 # Details
 
 ```
